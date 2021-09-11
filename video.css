@@ -1,0 +1,98 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family:'Work Sans', sans-serif;
+}
+img{
+    max-width: 100px;
+}
+
+/* header */
+.jon-header{
+
+}
+.jon-header .navbar-brand{
+    font-size: 25px;
+    font-weight: 500;
+
+}
+.jon-header span{
+    display: inline-block;
+    background-color: #6378e1;
+    color: white;
+    height: 46px;
+    width: 46px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.jon-menu .nav-link{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+/* slider */
+
+.slider-section{
+    background-image: url(https://i.ibb.co/23MT6Fg/img.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .6);
+    z-index: -1;
+}
+
+.slider-caption h5{
+    margin-bottom: 20px;
+}
+.slider-caption h2{
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+/* about */
+
+.about-text-left{
+    margin-top: 200px;
+}
+.about-text-left p{
+    font-size: 20px;
+    line-height: 2;
+    margin-top: 30px;
+}
+
+/* future-item */
+
+.future-item{
+    height: 300px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.1);
+}
+.left-img{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.right-text{
+    width: 60%;
+    padding: 20px;
+}
+
+.left-img img{
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -40px;
+}
+ /* portfolio */
+ 
